@@ -621,3 +621,43 @@ The statement has been terminated.
    at Dnn.PersonaBar.SiteSettings.Services.SiteSettingsController.UpdatePortalSettings(UpdateSiteSettingsRequest request)
 ClientConnectionId:492147fb-55d1-45a5-a657-268b46c48763
 Error Number:2601,State:1,Class:14
+2017-05-31 12:35:38,187 [LapDog][Thread:11][ERROR] DotNetNuke.Services.Exceptions.Exceptions - FriendlyMessage="Error: SampleMVC is currently unavailable." ctrl="DotNetNuke.Web.Mvc.MvcHostControl" exc="System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Web.Mvc.Framework.ModuleDelegatingViewEngine.RunAgainstModuleViewEngines(ControllerContext controllerContext, Func`2 engineRequest) in C:\TeamCity\buildAgent\work\DNN_Platform_910_Public\Packaging\DNN.Platform\DNN Platform\DotNetNuke.Web.Mvc\Framework\ModuleDelegatingViewEngine.cs:line 62
+   at System.Web.Mvc.ViewEngineCollection.<>c__DisplayClass6.<FindView>b__4(IViewEngine e)
+   at System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   at System.Web.Mvc.ViewEngineCollection.FindView(ControllerContext controllerContext, String viewName, String masterName)
+   at DotNetNuke.Web.Mvc.Framework.ActionResults.DnnViewResult.ExecuteResult(ControllerContext context, TextWriter writer) in C:\TeamCity\buildAgent\work\DNN_Platform_910_Public\Packaging\DNN.Platform\DNN Platform\DotNetNuke.Web.Mvc\Framework\ActionResults\DnnViewResult.cs:line 15
+   at DotNetNuke.Web.Mvc.MvcHostControl.RenderModule(ModuleRequestResult moduleResult) in C:\TeamCity\buildAgent\work\DNN_Platform_910_Public\Packaging\DNN.Platform\DNN Platform\DotNetNuke.Web.Mvc\MvcHostControl.cs:line 183
+   at DotNetNuke.Web.Mvc.MvcHostControl.OnPreRender(EventArgs e) in C:\TeamCity\buildAgent\work\DNN_Platform_910_Public\Packaging\DNN.Platform\DNN Platform\DotNetNuke.Web.Mvc\MvcHostControl.cs:line 240"
+2017-05-31 12:43:21,755 [LapDog][Thread:19][ERROR] DotNetNuke.Services.Exceptions.Exceptions - FriendlyMessage="Error: SampleMVC is currently unavailable." ctrl="DotNetNuke.Web.Mvc.MvcHostControl" exc="System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Web.Mvc.Framework.ModuleDelegatingViewEngine.RunAgainstModuleViewEngines(ControllerContext controllerContext, Func`2 engineRequest) in C:\TeamCity\buildAgent\work\DNN_Platform_910_Public\Packaging\DNN.Platform\DNN Platform\DotNetNuke.Web.Mvc\Framework\ModuleDelegatingViewEngine.cs:line 62
+   at System.Web.Mvc.ViewEngineCollection.<>c__DisplayClass6.<FindView>b__4(IViewEngine e)
+   at System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   at System.Web.Mvc.ViewEngineCollection.FindView(ControllerContext controllerContext, String viewName, String masterName)
+   at DotNetNuke.Web.Mvc.Framework.ActionResults.DnnViewResult.ExecuteResult(ControllerContext context, TextWriter writer) in C:\TeamCity\buildAgent\work\DNN_Platform_910_Public\Packaging\DNN.Platform\DNN Platform\DotNetNuke.Web.Mvc\Framework\ActionResults\DnnViewResult.cs:line 15
+   at DotNetNuke.Web.Mvc.MvcHostControl.RenderModule(ModuleRequestResult moduleResult) in C:\TeamCity\buildAgent\work\DNN_Platform_910_Public\Packaging\DNN.Platform\DNN Platform\DotNetNuke.Web.Mvc\MvcHostControl.cs:line 183
+   at DotNetNuke.Web.Mvc.MvcHostControl.OnPreRender(EventArgs e) in C:\TeamCity\buildAgent\work\DNN_Platform_910_Public\Packaging\DNN.Platform\DNN Platform\DotNetNuke.Web.Mvc\MvcHostControl.cs:line 240"
+2017-05-31 12:43:33,909 [LapDog][Thread:17][ERROR] DotNetNuke.Services.Exceptions.Exceptions - FriendlyMessage="Error: SampleMVC is currently unavailable." ctrl="DotNetNuke.Web.Mvc.MvcHostControl" exc="System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Web.Mvc.Framework.ModuleDelegatingViewEngine.RunAgainstModuleViewEngines(ControllerContext controllerContext, Func`2 engineRequest) in C:\TeamCity\buildAgent\work\DNN_Platform_910_Public\Packaging\DNN.Platform\DNN Platform\DotNetNuke.Web.Mvc\Framework\ModuleDelegatingViewEngine.cs:line 62
+   at System.Web.Mvc.ViewEngineCollection.<>c__DisplayClass6.<FindView>b__4(IViewEngine e)
+   at System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   at System.Web.Mvc.ViewEngineCollection.FindView(ControllerContext controllerContext, String viewName, String masterName)
+   at DotNetNuke.Web.Mvc.Framework.ActionResults.DnnViewResult.ExecuteResult(ControllerContext context, TextWriter writer) in C:\TeamCity\buildAgent\work\DNN_Platform_910_Public\Packaging\DNN.Platform\DNN Platform\DotNetNuke.Web.Mvc\Framework\ActionResults\DnnViewResult.cs:line 15
+   at DotNetNuke.Web.Mvc.MvcHostControl.RenderModule(ModuleRequestResult moduleResult) in C:\TeamCity\buildAgent\work\DNN_Platform_910_Public\Packaging\DNN.Platform\DNN Platform\DotNetNuke.Web.Mvc\MvcHostControl.cs:line 183
+   at DotNetNuke.Web.Mvc.MvcHostControl.OnPreRender(EventArgs e) in C:\TeamCity\buildAgent\work\DNN_Platform_910_Public\Packaging\DNN.Platform\DNN Platform\DotNetNuke.Web.Mvc\MvcHostControl.cs:line 240"
+2017-05-31 12:43:34,013 [LapDog][Thread:19][ERROR] DotNetNuke.Services.Exceptions.Exceptions - FriendlyMessage="Error: SampleMVC is currently unavailable." ctrl="DotNetNuke.Web.Mvc.MvcHostControl" exc="System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Web.Mvc.Framework.ModuleDelegatingViewEngine.RunAgainstModuleViewEngines(ControllerContext controllerContext, Func`2 engineRequest) in C:\TeamCity\buildAgent\work\DNN_Platform_910_Public\Packaging\DNN.Platform\DNN Platform\DotNetNuke.Web.Mvc\Framework\ModuleDelegatingViewEngine.cs:line 62
+   at System.Web.Mvc.ViewEngineCollection.<>c__DisplayClass6.<FindView>b__4(IViewEngine e)
+   at System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   at System.Web.Mvc.ViewEngineCollection.FindView(ControllerContext controllerContext, String viewName, String masterName)
+   at DotNetNuke.Web.Mvc.Framework.ActionResults.DnnViewResult.ExecuteResult(ControllerContext context, TextWriter writer) in C:\TeamCity\buildAgent\work\DNN_Platform_910_Public\Packaging\DNN.Platform\DNN Platform\DotNetNuke.Web.Mvc\Framework\ActionResults\DnnViewResult.cs:line 15
+   at DotNetNuke.Web.Mvc.MvcHostControl.RenderModule(ModuleRequestResult moduleResult) in C:\TeamCity\buildAgent\work\DNN_Platform_910_Public\Packaging\DNN.Platform\DNN Platform\DotNetNuke.Web.Mvc\MvcHostControl.cs:line 183
+   at DotNetNuke.Web.Mvc.MvcHostControl.OnPreRender(EventArgs e) in C:\TeamCity\buildAgent\work\DNN_Platform_910_Public\Packaging\DNN.Platform\DNN Platform\DotNetNuke.Web.Mvc\MvcHostControl.cs:line 240"
+2017-05-31 12:57:14,088 [LapDog][Thread:35][ERROR] DotNetNuke.Services.Exceptions.Exceptions - FriendlyMessage="Error: SampleMVC is currently unavailable." ctrl="DotNetNuke.Web.Mvc.MvcHostControl" exc="System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Web.Mvc.Framework.ModuleDelegatingViewEngine.RunAgainstModuleViewEngines(ControllerContext controllerContext, Func`2 engineRequest) in C:\TeamCity\buildAgent\work\DNN_Platform_910_Public\Packaging\DNN.Platform\DNN Platform\DotNetNuke.Web.Mvc\Framework\ModuleDelegatingViewEngine.cs:line 62
+   at System.Web.Mvc.ViewEngineCollection.<>c__DisplayClass6.<FindView>b__4(IViewEngine e)
+   at System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   at System.Web.Mvc.ViewEngineCollection.FindView(ControllerContext controllerContext, String viewName, String masterName)
+   at DotNetNuke.Web.Mvc.Framework.ActionResults.DnnViewResult.ExecuteResult(ControllerContext context, TextWriter writer) in C:\TeamCity\buildAgent\work\DNN_Platform_910_Public\Packaging\DNN.Platform\DNN Platform\DotNetNuke.Web.Mvc\Framework\ActionResults\DnnViewResult.cs:line 15
+   at DotNetNuke.Web.Mvc.MvcHostControl.RenderModule(ModuleRequestResult moduleResult) in C:\TeamCity\buildAgent\work\DNN_Platform_910_Public\Packaging\DNN.Platform\DNN Platform\DotNetNuke.Web.Mvc\MvcHostControl.cs:line 183
+   at DotNetNuke.Web.Mvc.MvcHostControl.OnPreRender(EventArgs e) in C:\TeamCity\buildAgent\work\DNN_Platform_910_Public\Packaging\DNN.Platform\DNN Platform\DotNetNuke.Web.Mvc\MvcHostControl.cs:line 240"
